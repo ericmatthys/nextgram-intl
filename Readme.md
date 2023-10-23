@@ -22,6 +22,6 @@ https://nextgram.vercel.app
 ```bash
 git clone https://github.com/vercel/nextgram.git
 cd nextgram/
-yarn
-yarn dev
+pnpm
+pnpm dev
 ```
