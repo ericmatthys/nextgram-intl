@@ -1,12 +1,13 @@
+const withNextIntl = require('next-intl/plugin')();
+
 /**
  * @type {import('next').NextConfig}
  */
-module.exports = {
+const config = {
   reactStrictMode: true,
   images: {
     domains: ['pbs.twimg.com'],
   },
-  experimental: {
-    appDir: true,
-  },
 };
+
+module.exports = withNextIntl(config);

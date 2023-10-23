@@ -1,6 +1,6 @@
 'use client'
 import { useCallback, useRef, useEffect, MouseEventHandler } from 'react'
-import { useRouter } from 'next/navigation'
+import {useRouter} from "../../navigation";
 
 export default function Modal({ children }: { children: React.ReactNode }) {
   const overlay = useRef(null)
